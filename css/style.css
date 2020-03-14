@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -87,7 +88,28 @@ h6 {
 }
 
 /*--------------------*/
-body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background: red;
+.block__row {
+  border: 10px solid #ece89d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+}
+
+.block__element {
+  border: 5px solid #5e5373;
+}
+
+.block__element_2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+/* контент */
+.block__content {
+  padding: 20px;
+  background-color: #18b5a4;
+  text-align: center;
+  /* плюс прочие стили для текста, отступы */
 }
